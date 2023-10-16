@@ -13,7 +13,6 @@ let item = '';
 //ciclo while inizierà per cerca una parola diversa da stop
 while(item != 'stop'){ 
     item = prompt('aggiungi alla lista');
-    console.log(item);
     //usiamo il trim per evitare spazi vuoti
     item = item.trim();
     if (item !== 'stop' && item !== ''){
